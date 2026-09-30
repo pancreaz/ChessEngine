@@ -1,19 +1,12 @@
 # Python Chess AI Microservice (FastAPI REST API)
 
-A standalone Python REST API microservice for Chess position evaluation and AI move prediction powered by **FastAPI**, **python-chess**, Minimax with Alpha-Beta Pruning, and Piece-Square Tables.
+A standalone Python REST API microservice for Chess position evaluation and AI move prediction.
 
----
-
-## 🚀 Quick Start
 
 ### 1. Run the FastAPI Microservice
 In your terminal, navigate to `PythonEngine/` and run:
 ```bash
 python main.py
-```
-* Or using Uvicorn directly:
-```bash
-uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 ### 2. Interactive API Documentation (Swagger UI)
